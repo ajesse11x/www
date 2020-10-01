@@ -17,3 +17,5 @@ lxml==4.4.1
 # For fancy 404 pages
 git+https://github.com/rtfd/sphinx-notfound-page@master#egg=sphinx-notfound-page
 
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
