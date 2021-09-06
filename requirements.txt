@@ -17,3 +17,4 @@ lxml==4.4.1
 # For fancy 404 pages
 git+https://github.com/rtfd/sphinx-notfound-page@master#egg=sphinx-notfound-page
 
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
